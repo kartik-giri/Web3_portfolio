@@ -26,7 +26,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
               StableCoin-Protocol
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full flex xl:p-0 p-4 justify-center pt-3">
               <Image
                 src={stableCoin}
                 width={300}
@@ -53,7 +53,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
               ERC-20 Token
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full  xl:p-0 p-4 flex justify-center pt-3">
               <Image
                 src={erc20}
                 width={300}
@@ -80,7 +80,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
               Lottery-Dapp
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
               <Image
                 src={lotteryContract}
                 width={300}
@@ -116,7 +116,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
               Lottery-Protocol
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full flex xl:p-0 p-4 justify-center pt-3">
               <Image
                 src={lotterydapp}
                 width={300}
@@ -143,7 +143,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium mx-1 text-3xl text-center mt-4">
               Crowdfunding-Contract
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
               <Image
                 src={fundMeContract}
                 width={300}
@@ -170,7 +170,7 @@ export default function Projects() {
             <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
               Crowdfunding-Dapp
             </h1>
-            <div className=" w-full h-full flex justify-center pt-3">
+            <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
               <Image
                 src={fundMeDapp}
                 width={300}
