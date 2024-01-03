@@ -44,7 +44,7 @@ export default function Contacts() {
         </div>
         <div className=' pt-12'> 
             <div className='w-full border-t-2 border-gray-700'></div>
-            <div className=' text-center text-gray-700 font-sans font-normal pt-5'>Kartik_giri 2023 | All rights reserved</div>
+            <div className=' text-center text-gray-700 font-sans font-normal pt-5'>Kartik_giri 2024 | All rights reserved</div>
         </div>
     </div>
   )

@@ -30,7 +30,7 @@ export default function Homepage() {
         </div>
         <div className="flex text-left mt-2 md:px-0">
           <div>
-          <button className=" text-white  bg-orange-500 px-4  text-lg mt-3 py-2 font-sans font-bold rounded-sm hover:text-black hover:duration-100 hover:ease-in">
+          <button className=" text-white  bg-orange-500 px-4 text-sm  xl:text-lg mt-3 py-2 font-sans font-bold rounded-sm hover:text-black hover:duration-100 hover:ease-in">
               <a href="/My_resume.pdf" download="My_resume.pdf" className="flex justify-center" >
 
               <div >
