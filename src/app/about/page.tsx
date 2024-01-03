@@ -8,7 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 export default function About() {
   return (
-    <div className=" w-screen h-screen bg-gray-950" id="about">
+    <div className=" w-screen h-full bg-gray-950" id="about">
       <div className=" flex justify-center w-full">
         <h1 className=" text-5xl  font-bold text-white pt-16 md:pt-24  cursor-pointer ">
           About <span className=" text-orange-500">Me</span>
