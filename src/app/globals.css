@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
@@ -14,7 +14,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -25,5 +25,5 @@ body {
     )
     rgb(var(--background-start-rgb));
   /* Change the background color to bg-gray-950 */
-  background-color: #1f1f1f; /* This is the color corresponding to bg-gray-950 in Tailwind CSS */
+  background-color: rgb(3 7 18); /* This is the color corresponding to bg-gray-950 in Tailwind CSS */
 }
