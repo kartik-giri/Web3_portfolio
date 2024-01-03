@@ -37,9 +37,7 @@ export default function Homepage() {
               Download Cv 
 
               </div>
-              <span className=" ml-2">
-                <AiOutlineDownload size = "28"/>
-              </span>
+            
               </a>
             </button>
           </div>
