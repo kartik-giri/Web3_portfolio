@@ -138,25 +138,25 @@ export default function Navbar() {
             {/* MOBILE NAVBAR ICON */}
             <div className="mr-4">
               <div
-                onClick={handleNav}
                 className=" xl:hidden cursor-pointer  text-white"
               >
-                <AiOutlineMenu size={28} className ="hover:text-orange-500" />
+                <AiOutlineMenu size={28} className ="hover:text-orange-500"  onClick={handleNav} />
               </div>
             </div>
           </div>
         </div>
         {/* MOBILE NAVIGATION */}
         <div
-          className={
-            menuOpen
-              ? "fixed top-0 left-0 w-[65%] h-screen xl:hidden bg-gray-950  bg-opacity-90 ease-in duration-500"
-              : "fixed left-[-100%] h-screen w-[65%] top-0 ease-in duration-500"
-          }
+         className={
+          menuOpen
+             ? "fixed top-0 left-0 w-[65%] h-screen xl:hidden bg-gray-950 bg-opacity-90 transition-all ease-in duration-500"
+             : "fixed left-[-100%] h-screen w-[65%] top-0 ease-in duration-500"
+       }
+       
         >
           <div className="flex w-full items-center justify-end pt-10 pr-8">
-            <div onClick={handleNav} className="cursor-pointer">
-              <AiOutlineClose size={25} className="text-white hover:text-orange-500" />
+            <div  className="cursor-pointer">
+              <AiOutlineClose size={25} className="text-white hover:text-orange-500" onClick={handleNav} />
             </div>
           </div>
 
