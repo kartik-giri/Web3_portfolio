@@ -6,7 +6,7 @@ export default function ContactButton() {
   return (
     <div>
         <Link
-                  to="projects"
+                  to="contacts"
                   spy={true}
                   smooth={true}
                   offset={-50}
