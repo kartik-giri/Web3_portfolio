@@ -5,7 +5,7 @@ import { AiFillCheckCircle, AiOutlineLaptop } from "react-icons/ai";
 
 export default function Service() {
   return (
-    <div className=" h-screen w-full  bg-gray-950 " id="services">
+    <div className=" h-full w-full  bg-gray-950 " id="services">
       <div className=" flex justify-center w-full">
         <h1 className=" text-5xl  font-bold text-white pt-16 md:pt-24  cursor-pointer  ">
           Servi<span className=" text-orange-500">ces</span>
