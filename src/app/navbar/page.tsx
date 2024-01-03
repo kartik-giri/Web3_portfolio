@@ -141,7 +141,7 @@ export default function Navbar() {
                 onClick={handleNav}
                 className=" xl:hidden cursor-pointer  text-white"
               >
-                <AiOutlineMenu size={28} />
+                <AiOutlineMenu size={28} className ="hover:text-orange-500" />
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function Navbar() {
         >
           <div className="flex w-full items-center justify-end pt-10 pr-8">
             <div onClick={handleNav} className="cursor-pointer">
-              <AiOutlineClose size={25} className="text-white" />
+              <AiOutlineClose size={25} className="text-white hover:text-orange-500" />
             </div>
           </div>
 

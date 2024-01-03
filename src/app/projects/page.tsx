@@ -100,7 +100,7 @@ export default function Projects() {
                 <AiFillChrome size={34} className=" text-white hover:text-orange-500 " />
               </Link>
               <Link
-                href="https://github.com/kartik-giri/Lottery_Nextjs_Dapp"
+                href="https://github.com/kartik-giri/LotteryWeb3-Dapp"
                 target="_blank"
                 className=" mr-6 xl:mr-12 pb-4 pt-2"
               >

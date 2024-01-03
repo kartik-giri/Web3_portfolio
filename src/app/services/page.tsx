@@ -50,7 +50,7 @@ export default function Service() {
           </div>
         </div>
 
-        <div className=" md:w-3/12 mx-7    m-7 md:m-0  md:ml-28 xl:ml-40 bg-blue-700 text-white rounded-md transform transition-transform ease-in-out duration-200 hover:-translate-y-2 ">
+        <div className=" md:w-3/12 mx-7  md:m-0  md:ml-28 xl:ml-40 bg-blue-700 text-white rounded-md transform transition-transform ease-in-out duration-200 hover:-translate-y-2 ">
           <div className="w-full flex justify-center md:mt-6 pt-4 ">
            <AiOutlineLaptop
            size={100}

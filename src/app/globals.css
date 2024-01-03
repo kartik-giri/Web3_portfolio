@@ -24,4 +24,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  /* Change the background color to bg-gray-950 */
+  background-color: #1f1f1f; /* This is the color corresponding to bg-gray-950 in Tailwind CSS */
 }
