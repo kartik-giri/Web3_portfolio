@@ -118,7 +118,7 @@ export default function Skills() {
               <div>
               <AiFillCheckCircle size={20} className=" text-white mr-1"/>
               </div>
-              <div>Next/React.js</div>
+              <div>Testing</div>
              
             </div>
 
@@ -133,14 +133,14 @@ export default function Skills() {
               <div>
               <AiFillCheckCircle size={20} className=" text-white mr-1"/>
               </div>
-              <div>Javascript</div>
+              <div>Next/React.js</div>
             </div>
 
             <div className='flex ml-6'>
               <div>
               <AiFillCheckCircle size={20} className=" text-white mr-1"/>
               </div>
-              <div>Typescript</div>
+              <div>JS/TS</div>
             </div>
             
           </div>

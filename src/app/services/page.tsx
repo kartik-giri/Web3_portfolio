@@ -79,7 +79,7 @@ export default function Service() {
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>Find and bugs with POC.</div>
+              <div>Find bugs and write POC.</div>
             </div>
 
             <div className="flex mx-6  my-2">
