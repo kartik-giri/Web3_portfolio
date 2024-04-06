@@ -26,7 +26,7 @@ export default function Homepage() {
        <span className=" text-white">Kartik giri.</span>
         </div>
         <div className=" text-2xl font-medium text-white mt-2 md:pt-4">
-          I am <span className=" text-orange-400 font-bold">Blockchain</span> developer | <span className=" text-orange-400 font-bold">Security</span> researcher
+          I am <span className=" text-orange-400 font-bold">Blockchain</span> developer | <span className=" text-orange-400 font-bold">Security</span> researcher.
         </div>
         <div className="flex text-left mt-2 md:px-0">
           <div>
