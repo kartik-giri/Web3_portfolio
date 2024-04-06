@@ -34,9 +34,9 @@ export default function About() {
             <div className="">
               <p className="flex ">
                 <span className="h-1 w-8 bg-orange-500 mr-2 pt-8"></span>
-                I'm Kartik Giri, a blockchain developer working on decentralized
-                technologies. With expertise in smart contracts and DApp
-                development, I specialize in creating secure and scalable
+                I'm Kartik Giri, a blockchain developer and security researcher working on decentralized
+                technologies. With expertise in building and securing smart contracts,
+                I specialize in coding secure, readable smart contracts and finding bugs in 
                 blockchain protocols.
               </p>
             </div>

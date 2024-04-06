@@ -4,12 +4,12 @@ import {AiOutlineArrowDown } from "react-icons/ai";
 import { AiOutlineDownload } from "react-icons/ai";
 import Profile from "../../../public/IMG-f.png";
 import ContactButton from "./contactButton/page";
-import ParticleComp from "./particle/page";
+// import ParticleComp from "./particle/page";
 
 export default function Homepage() {
   return (
     <div className="h-full xl:h-screen w-full pt-20 md:pt-0 bg-cover bg-center" id="homepage">
-      <ParticleComp />
+      {/* <ParticleComp /> */}
       <div className= " h-{90%} w-full md:flex md:flex-row-reverse md:items-center md:px-28 justify-between md:pb-10 md:pt-20">
       <div className="flex justify-center px-7 md:px-0  pt-24 md:flex md:justify-end  md:pl-14 ">
         <Image
@@ -23,10 +23,10 @@ export default function Homepage() {
 
       <div className=" px-7 md:px-0 md:w-3/6 mt-4 text-left md:text-left">
         <div className=" text-4xl text-white xl:text-7xl  font-bold font-sans">
-          Hello, my name is <span className=" text-orange-400">Kartik giri.</span>
+       <span className=" text-white">Kartik giri.</span>
         </div>
         <div className=" text-2xl font-medium text-white mt-2 md:pt-4">
-          I am <span className=" text-orange-400 font-bold">Blockchain</span> developer.
+          I am <span className=" text-orange-400 font-bold">Blockchain</span> developer | <span className=" text-orange-400 font-bold">Security</span> researcher
         </div>
         <div className="flex text-left mt-2 md:px-0">
           <div>
