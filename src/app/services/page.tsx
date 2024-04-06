@@ -23,7 +23,7 @@ export default function Service() {
             />
           </div>
           <div className=" w-full flex justify-center mt-2">
-            <h1 className=" text-lg font-bold">Smart contract</h1>
+            <h1 className=" text-lg font-bold">Smart contracts</h1>
           </div>
 
           <div className=" mt-4 md:mb-8 pb-4">
