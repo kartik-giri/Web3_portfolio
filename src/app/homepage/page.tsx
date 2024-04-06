@@ -4,12 +4,12 @@ import {AiOutlineArrowDown } from "react-icons/ai";
 import { AiOutlineDownload } from "react-icons/ai";
 import Profile from "../../../public/IMG-f.png";
 import ContactButton from "./contactButton/page";
-// import ParticleComp from "./particle/page";
+import ParticleComp from "./particle/page";
 
 export default function Homepage() {
   return (
     <div className="h-full xl:h-screen w-full pt-20 md:pt-0 bg-cover bg-center" id="homepage">
-      {/* <ParticleComp /> */}
+      <ParticleComp />
       <div className= " h-{90%} w-full md:flex md:flex-row-reverse md:items-center md:px-28 justify-between md:pb-10 md:pt-20">
       <div className="flex justify-center px-7 md:px-0  pt-24 md:flex md:justify-end  md:pl-14 ">
         <Image
