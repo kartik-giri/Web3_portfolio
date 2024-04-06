@@ -38,14 +38,21 @@ export default function Service() {
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>Design and develop the whole protocol.</div>
+              <div>Write tests and deployement scripts.</div>
             </div>
 
             <div className="flex mx-6  my-2">
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>Do testing and write deployement scripts.</div>
+              <div>Fuzz testing.</div>
+            </div>
+
+            <div className="flex mx-6  my-2">
+              <div>
+                <AiFillCheckCircle size={20} className=" text-white mr-1" />
+              </div>
+              <div>Invariant testing.</div>
             </div>
           </div>
         </div>
@@ -57,7 +64,7 @@ export default function Service() {
            />
           </div>
           <div className=" w-full flex justify-center mt-2">
-            <h1 className=" text-lg font-bold">FullStack Dapp</h1>
+            <h1 className=" text-lg font-bold">Security review</h1>
           </div>
 
           <div className=" mt-4 md:mb-8 pb-4">
@@ -65,21 +72,28 @@ export default function Service() {
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>I will develop the interactive user interface.</div>
+              <div>Educate the protocol team about security.</div>
             </div>
 
             <div className="flex mx-6  my-2">
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>Develop responsive site.</div>
+              <div>Find and bugs with POC.</div>
             </div>
 
             <div className="flex mx-6  my-2">
               <div>
                 <AiFillCheckCircle size={20} className=" text-white mr-1" />
               </div>
-              <div>Connect smart contract and metamask with frontend.</div>
+              <div>Write and deliver easily understandable security report.</div>
+            </div>
+
+            <div className="flex mx-6  my-2">
+              <div>
+                <AiFillCheckCircle size={20} className=" text-white mr-1" />
+              </div>
+              <div>Write invariant/fuzz test if required.</div>
             </div>
           </div>
         </div>

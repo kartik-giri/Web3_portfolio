@@ -23,7 +23,7 @@ export default function Projects() {
       <div className=" xl:grid grid-cols-3 gap-4 w-[80vw] mx-auto xl:pt-8 mt:4">
         <div className=" flex justify-center items-center mt-5 pb-5 xl:pb-0">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4 mb-3">
               StableCoin-Protocol
             </h1>
             <div className=" w-full h-full flex xl:p-0 p-4 justify-center pt-3">
@@ -50,7 +50,7 @@ export default function Projects() {
 
         <div className=" flex justify-center items-center mt-5 pb-5 xl:pb-0">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4 mb-3">
               ERC-20 Token
             </h1>
             <div className=" w-full h-full  xl:p-0 p-4 flex justify-center pt-3">
@@ -77,7 +77,7 @@ export default function Projects() {
 
         <div className=" flex justify-center items-center mt-5 pb-5 xl:pb-0">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4 mb-3">
               Lottery-Dapp
             </h1>
             <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
@@ -113,7 +113,7 @@ export default function Projects() {
 
         <div className=" flex justify-center items-center mt-5 xl:mt-0 pb-5">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4 mb-3">
               Lottery-Protocol
             </h1>
             <div className=" w-full h-full flex xl:p-0 p-4 justify-center pt-3">
@@ -140,7 +140,7 @@ export default function Projects() {
 
         <div className=" flex justify-center items-center mt-5 xl:mt-0 pb-5">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium mx-1 text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium mx-1 text-3xl text-center mt-4 mb-3">
               Crowdfunding-Contract
             </h1>
             <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
@@ -167,7 +167,7 @@ export default function Projects() {
 
         <div className=" flex justify-center items-center mt-5 xl:mt-0 pb-5">
           <div className=" w-[85vw] bg-gray-900 rounded-sm ">
-            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4">
+            <h1 className=" text-white font-sans font-medium text-3xl text-center mt-4 mb-3">
               Crowdfunding-Dapp
             </h1>
             <div className=" w-full h-full xl:p-0 p-4 flex justify-center pt-3">
