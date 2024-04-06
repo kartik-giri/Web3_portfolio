@@ -1,7 +1,8 @@
 import React from 'react'
 import { AiFillMail } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
+// import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import Link from 'next/link';
 
 export default function Contacts() {
@@ -30,13 +31,13 @@ export default function Contacts() {
             </div>
                 </Link>
 
-                <Link href={"https://www.linkedin.com/in/kartik-giri-496347251/"} target='/'>
+                <Link href={"https://github.com/kartik-giri"} target='/'>
             <div className=' flex'>
                 <div className=' bg-blue-700 rounded-full p-3'>
-                    <AiFillLinkedin size={40} className=' text-white '/>
+                    <AiFillGithub size={40} className=' text-white '/>
                 </div>
                 <div className=' ml-3 mt-3'>
-                    <div className=' text-white'>Send Me Dm</div>
+                    <div className=' text-white'>My github</div>
                     <div className=' text-white font-sans font-thin'>kartik-giri</div>
                 </div>
             </div>
