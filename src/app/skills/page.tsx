@@ -44,7 +44,7 @@ export default function Skills() {
               <div>
               <AiFillCheckCircle size={20} className=" text-white mr-1"/>
               </div>
-              <div>Invariant testing</div>
+              <div>Coded POCs</div>
             </div>
 
             <div className='flex ml-6'>
@@ -59,7 +59,7 @@ export default function Skills() {
               <div>
               <AiFillCheckCircle size={20} className=" text-white mr-1"/>
               </div>
-              <div>Coded POCs</div>
+              <div>Invariant testing</div>
             </div>
 
             {/* <div className='flex ml-6'>
